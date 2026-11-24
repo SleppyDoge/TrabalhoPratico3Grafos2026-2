@@ -40,7 +40,7 @@ Portanto, o objetivo não é minimizar a quantidade de voos realizados, mas o cu
 ## 5. Restrições
 
 | Restrição | Significado |
-|---|---|
+| --- | --- |
 | 2 ≤ n ≤ 10⁵ | O grafo possui entre 2 e 100.000 cidades. |
 | 1 ≤ m ≤ 2 × 10⁵ | Existem entre 1 e 200.000 voos. |
 | 1 ≤ a, b ≤ n | As cidades de origem e destino devem possuir identificadores válidos. |
@@ -56,7 +56,7 @@ O número elevado de cidades e voos exige uma solução computacional eficiente.
 O problema é modelado como um grafo direcionado e ponderado G = (V, E).
 
 | Elemento do grafo | Representação no problema |
-|---|---|
+| --- | --- |
 | Vértices (V) | Cidades |
 | Arestas (E) | Voos entre cidades |
 | Direção | Sentido do voo, da origem ao destino |
@@ -81,3 +81,4 @@ Entretanto, diferentemente do problema tradicional de caminho mínimo, que busca
 - CARUBBI, Ricardo. Unidade 3 — Caminhos de Menor Custo
   (Shortest Paths). Material didático da disciplina de
   Resolução de Problemas com Grafos. UNIFOR, 2026.
+
