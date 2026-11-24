@@ -60,3 +60,6 @@ Logo, temos que, em vista dos valores encontrados no processamento, a saída dev
 ```
 
 ## Complexidade
+
+Como estará sendo utilizado o algoritimo de Dijkstra como base (apesar de ser necessário modificações futuras por conta que desejamos vários caminhos mínimos), temos que a complexidade de tempo é: \
+$O((V + E) \log{V})$
