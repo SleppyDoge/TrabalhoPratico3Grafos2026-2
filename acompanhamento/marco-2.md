@@ -35,9 +35,9 @@ flowchart LR
   A -->|1| B 
   A -->|3| C
   B -->|2| C
-  B -->|8| D
-  C -->|1| B
-  C -->|6| D
+  B -->|6| D
+  C -->|8| B
+  C -->|1| D
 
 ```
 
@@ -63,3 +63,6 @@ Logo, temos que, em vista dos valores encontrados no processamento, a saída dev
 
 Como estará sendo utilizado o algoritimo de Dijkstra como base (apesar de ser necessário modificações futuras por conta que desejamos vários caminhos mínimos), temos que a complexidade de tempo é: \
 $O((V + E) \log{V})$
+
+Além disso, como no algorítimo precisamos armazenar a lista de adjacência e, o valor associado ao preço mínimo, logo: \
+$O(V + E)$
